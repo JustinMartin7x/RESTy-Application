@@ -9,8 +9,8 @@ import Help from '../Help/Help';
 export default function App() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
         <Switch>
           <Route path='/' exact component={() => <Main />} />
           <Route path='/History' component={() => <History />} />
